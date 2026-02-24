@@ -1,0 +1,12 @@
+
+.app {
+    font-family: sans-serif;
+    background-color: rgb(205, 205, 205);
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px 15px;
+}
+

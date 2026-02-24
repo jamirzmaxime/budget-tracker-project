@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Budget Tracker</title>
@@ -11,13 +12,15 @@
      <h1>Budget Tracker</h1>
         
         <section class="input-section">
-            <button>Add Income</button>
-            <button>Add Expense</button>
+            <button id="add-income-btn">Add Income</button>
+            <button id="add-expense-btn">Add Expense</button>
         </section>
         
         <div class="transactions">
             <h2>Transactions:</h2>
-            <p id="transactions">None</p>
+            <div id="transaction-list">
+                <p>No transactions yet.</p>
+            </div>
         </div>
         
         <div class= "balance">

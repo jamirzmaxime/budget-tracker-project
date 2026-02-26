@@ -9,25 +9,28 @@
 <body>
     
     <section class="app">
-     <h1>Budget Tracker</h1>
-        
+        <div class="short-border">
+            <h1>Budget Tracker</h1>
+        </div>
         <section class="input-section">
             <button id="add-income-btn">Add Income</button>
             <button id="add-expense-btn">Add Expense</button>
         </section>
         
-        <div class="transactions">
+        <section class="transactions">
             <h2>Transactions:</h2>
             <div id="transaction-list">
                 <p>No transactions yet.</p>
             </div>
-        </div>
+        </section>
         
-        <div class= "balance">
+        <section class="balance">
             <h2>Balance:</h2>
             <p id="balance">$0.00</p>
-        </div>
+        </section>
     </section>
+
+    <script src="app.js"></script>
 
 </body>
 </html>

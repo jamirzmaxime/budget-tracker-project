@@ -13,8 +13,15 @@
             <h1>Budget Tracker</h1>
         </div>
         <section class="input-section">
-            <button id="add-income-btn">Add Income</button>
-            <button id="add-expense-btn">Add Expense</button>
+            <div id="main-buttons">
+                <button id="add-income-btn">Add Income</button>
+                <button id="add-expense-btn">Add Expense</button>
+            </div>
+            <div id="input-box" class= "hidden">
+                <input type="number" id="amount-input" placeholder="Enter Amount">
+                <button id="submit-btn">Submit</button>
+                <button id="cancel-btn">Cancel</button>
+            </div>
         </section>
         
         <section class="transactions">

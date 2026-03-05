@@ -22,9 +22,9 @@ body {
 
 .input-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 20px;
-    margin-bottom: 50px;
+    gap: 10px;
 }
 
 .transactions {
@@ -56,4 +56,22 @@ button {
     background-color: rgb(232, 19, 19);
     color: white;
     cursor: pointer;
+}
+
+#input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#submit-btn {
+    background-color: rgb(91, 255, 91);
+}
+
+#cancel-btn {
+    background-color: rgb(255, 91, 91);
 }

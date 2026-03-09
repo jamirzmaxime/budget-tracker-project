@@ -1,3 +1,4 @@
+/* Main Application Display */
 body {
     background-color: rgb(80, 80, 80);
 }
@@ -30,7 +31,7 @@ body {
 .transactions {
     margin-bottom: 40px;
 }
-
+/* Buttons and Input */
 button {
     border: 2px solid rgb(78, 78, 78);
     border-radius: 10px;

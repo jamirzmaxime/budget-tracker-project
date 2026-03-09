@@ -7,11 +7,13 @@
     <title>Budget Tracker</title>
 </head>
 <body>
-    
+    <!-- Main Application Section -->
     <section class="app">
+        <!-- Header -->
         <div class="short-border">
             <h1>Budget Tracker</h1>
         </div>
+        <!-- Input Section -->
         <section class="input-section">
             <div id="main-buttons">
                 <button id="add-income-btn">Add Income</button>
@@ -19,18 +21,37 @@
             </div>
             <div id="input-box" class= "hidden">
                 <input type="number" id="amount-input" placeholder="Enter Amount">
+              <!-- Date Input -->
+            <div id= "date" class="date">
+                <input type="date" id="date-input" placeholder="Select Date">
+            </div>
+            <!-- Category Input -->
+            <div id="category" class="category">
+                <label for="category">Category:</label>
+                <select name="category" id="category-select">
+                    <option value="food">Food</option>
+                    <option value="Payday">Paid</option>
+                    <option value="Entertainment">Entertainment</option>
+                    <option value="Gas">Gas</option>
+                    <option value="Bills">Bills</option>
+                    <option value="Subscriptions">Subscriptions</option>
+                    <option value="Saving/Investment">Saving/Investment</option>
+                    <option value="Other">Other</option>
+                </select>
+            <!-- Submit and Cancel Buttons -->    
+            </div>
                 <button id="submit-btn">Submit</button>
                 <button id="cancel-btn">Cancel</button>
             </div>
         </section>
-        
+        <!-- Transactions Section -->
         <section class="transactions">
             <h2>Transactions:</h2>
             <div id="transaction-list">
                 <p>No transactions yet.</p>
             </div>
         </section>
-        
+        <!-- Balance Section -->
         <section class="balance">
             <h2>Balance:</h2>
             <p id="balance">$0.00</p>
